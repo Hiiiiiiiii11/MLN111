@@ -30,13 +30,11 @@ const MainLayout = () => {
 
 
     return (
-        <div className="selection-role-page">
-            <div className="appContainer">
-                <Sidebar isOpen={isSidebarOpen} onSelect={handleMenuSelect} />
-                <Navbar toggleSidebar={toggleSidebar} />
-                <div className={`appHero ${isSidebarOpen ? "collapsed" : ""}`}>
-                    <Outlet />
-                </div>
+        <div className="appContainer">
+            <Sidebar isOpen={isSidebarOpen} onSelect={handleMenuSelect} />
+            <Navbar toggleSidebar={toggleSidebar} />
+            <div className={`appHero ${isSidebarOpen ? "collapsed" : ""}`}>
+                <Outlet />
             </div>
         </div>
     );

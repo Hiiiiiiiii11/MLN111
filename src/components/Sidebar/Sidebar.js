@@ -2,11 +2,11 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import "./Sidebar.css";
-import { DownOutlined } from "@ant-design/icons";
+import { BuildOutlined, DownOutlined, HomeOutlined, InteractionOutlined, LinkOutlined, ReadOutlined } from "@ant-design/icons";
 import { useDispatch, useSelector } from "react-redux";
 import { changeLanguageApp } from "../../actions/appActions"; // Điều chỉnh đường dẫn phù hợp
 import { LANGUAGES } from "../../utils/constant";
-import logo from '../../assests/logo.jpg'
+import logo from '../../assests/R.png'
 
 // Import các file dịch
 import enTranslations from "../../translations/en.json";
@@ -28,20 +28,23 @@ const Sidebar = ({ isOpen, onSelect, role }) => {
     const handleClick = (item) => {
         setSelected(item);
         onSelect(item);
-        // Nếu cần điều hướng: navigate(`/layout/${role}/${item}`);
+        navigate(`/${item}`);
     };
 
     useEffect(() => {
         if (!isOpen) {
-            setSelected('');
             setIsTrainerMenuOpen(false);
+        } else {
+            if (!selected) {
+                setSelected('side-bar1');
+                onSelect('side-bar1');
+            }
         }
     }, [isOpen]);
 
     // Hàm xử lý chuyển đổi ngôn ngữ khi nhấn "VN" hoặc "EN"
     const handleLanguageChange = (newLang) => {
         dispatch(changeLanguageApp(newLang));
-        console.log("Language changed to:", newLang);
     };
 
     return (
@@ -50,33 +53,33 @@ const Sidebar = ({ isOpen, onSelect, role }) => {
                 <img src={logo} />
             </div>
             <ul className="sidebar-menu">
-                <li onClick={() => handleClick('side-bar1')}>
-                    {isOpen && (
-                        <span className={selected === 'side-bar1' ? 'selected' : ''}>
-                            {labels["side-bar1"]}
-                        </span>
-                    )}
+                <li
+                    className={selected === 'side-bar1' ? 'selected' : ''}
+                    onClick={() => handleClick('side-bar1')}
+                >
+                    <HomeOutlined /> &nbsp;
+                    {isOpen && <span>{labels["side-bar1"]}</span>}
                 </li>
-                <li onClick={() => handleClick('side-bar2')}>
-                    {isOpen && (
-                        <span className={selected === 'side-bar2' ? 'selected' : ''}>
-                            {labels["side-bar2"]}
-                        </span>
-                    )}
+                <li
+                    className={selected === 'side-bar2' ? 'selected' : ''}
+                    onClick={() => handleClick('side-bar2')}
+                >
+                    <InteractionOutlined /> &nbsp;
+                    {isOpen && <span>{labels["side-bar2"]}</span>}
                 </li>
-                <li onClick={() => handleClick('side-bar3')}>
-                    {isOpen && (
-                        <span className={selected === 'side-bar3' ? 'selected' : ''}>
-                            {labels["side-bar3"]}
-                        </span>
-                    )}
+                <li
+                    className={selected === 'side-bar3' ? 'selected' : ''}
+                    onClick={() => handleClick('side-bar3')}
+                >
+                    <BuildOutlined /> &nbsp;
+                    {isOpen && <span>{labels["side-bar3"]}</span>}
                 </li>
-                <li onClick={() => handleClick('side-bar4')}>
-                    {isOpen && (
-                        <span className={selected === 'side-bar4' ? 'selected' : ''}>
-                            {labels["side-bar4"]}
-                        </span>
-                    )}
+                <li
+                    className={selected === 'side-bar4' ? 'selected' : ''}
+                    onClick={() => handleClick('side-bar4')}
+                >
+                    <ReadOutlined /> &nbsp;
+                    {isOpen && <span>{labels["side-bar4"]}</span>}
                 </li>
             </ul>
 

@@ -1,8 +1,20 @@
 {
     "sidebar": {
-        "side-bar1": "Xác nhận của giảng viên",
-        "side-bar2": "Quản lý học viên",
-        "side-bar3": "Đăng nhập công việc",
-        "side-bar4": "Quản lý nội dung"
+        "side-bar1": "Trang chủ",
+        "side-bar2": "Nguyên lý về mối liên hệ",
+        "side-bar3": "Nguyên lý về sự phát triển",
+        "side-bar4": "Tài liệu tham khảo"
+    },
+    "homecontent": {
+        "title": "Nguyên lý của phép biện chứng duy vật",
+        "concept": "Khái niệm : ",
+        "concept-content": "Phép biện chứng duy vật là phương pháp phương pháp luận cơ bản trong triết học Mác - Lênin, nhằm giúp con người hiểu rõ bản chất và quy luật phát triển của thế giới vật chất và ý thức.",
+        "target": "Mục tiêu :",
+        "target-content": "Trình bày nội dung của phép biện chứng duy vật và phân tích hai nguyên lý chính, từ đó thấy được ứng dụng của chúng trong thực tiễn.",
+        "title2": " Hai nguyên lý của phép biện chứng duy vật",
+        "principle1": "Nguyên lý về mối liên hệ phổ biến",
+        "principle1-content1": "Chính là sự tác động qua lại, sự ràng buộc, sự ảnh hưởng lẫn nhau giữa những sự vật, hiện tượng riêng lẻ đó. Nó giống như những sợi dây vô hình kết nối mọi thứ lại với nhau.",
+        "principle2": "Nguyên lý về sự phát triển",
+        "principle1-content2": "Sự phát triển là quá trình vận động đi lên, từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn"
     }
 }
