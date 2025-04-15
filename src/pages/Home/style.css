@@ -25,6 +25,36 @@
     align-items: center;
 }
 
+.home-container3 {
+    margin-top: 30px;
+    background-image: url('../../assests/homecontent3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* Quan trọng để absolute hoạt động trong con */
+    display: flex;
+    align-items: center;
+}
+
+.home-container3 span h3 ul {
+
+    margin-top: 600px;
+    margin-left: 250px;
+    font-size: 40px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    color: rgb(221, 210, 210);
+    /* Màu chữ */
+    text-shadow: 2px 2px 10px rgba(30, 30, 30, 0.7);
+    /* Hiệu ứng bóng đổ */
+    transform: translateY(-20px) skewY(-5deg);
+    /* Đưa chữ lên và làm cong */
+}
+
+
 .subback-ground {
     justify-content: center;
     background-image: url('../../assests/subbackground.png');
@@ -217,7 +247,7 @@
     margin-top: 100px;
     padding-left: 100px;
     position: absolute;
-    width: 49%;
+    min-width: 49%;
     right: 0;
     display: flex;
     gap: 105px
@@ -404,6 +434,81 @@
     position: absolute;
     width: 50%;
     right: 0;
+}
+
+.connect-contentadd2 {
+    margin-top: 30px;
+    background-image: url('../../assests/develop-contentadd2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.connect-contentadd2 span h1 {
+    margin-top: 0px !important;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: 20px;
+    color: rgb(68, 55, 7);
+    /* Chữ trong suốt */
+    background: linear-gradient(white);
+    /* Gradient màu */
+    background-clip: text;
+    /* Áp dụng gradient cho text */
+    -webkit-background-clip: text;
+    /* Hỗ trợ cho Safari */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px rgba(187, 183, 183, 0.6);
+}
+
+.connect-contentadd2 span li {
+    padding: 0 120px;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: rgb(68, 55, 7);
+    background-clip: text;
+    /* Áp dụng gradient cho text */
+    -webkit-background-clip: text;
+    /* Hỗ trợ cho Safari */
+
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 10px rgba(187, 183, 183, 0.6);
+}
+
+.connect-contentadd3 {
+    margin-top: 30px;
+    background-image: url('../../assests/connect-contentadd3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.connect-contentadd3 span h1 {
+    margin-top: 0px !important;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 20px;
+    color: rgb(68, 55, 7);
+    /* Chữ trong suốt */
+    background: linear-gradient(white);
+    /* Gradient màu */
+    background-clip: text;
+    /* Áp dụng gradient cho text */
+    -webkit-background-clip: text;
+    /* Hỗ trợ cho Safari */
+    font-weight: bold;
+    font-style: italic;
+    font-size: 3rem;
+    text-shadow: 2px 2px 10px rgba(187, 183, 183, 0.6);
 }
 
 .develop-background {

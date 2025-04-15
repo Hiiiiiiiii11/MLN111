@@ -97,6 +97,18 @@ const HomePage = () => {
 
                     </div>
                 </div>
+                <div className='home-container3'>
+                    <div>
+                        <span>
+
+                            <h3>
+                                <ul>{labels["home-content"]}</ul></h3>
+
+                        </span>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     );

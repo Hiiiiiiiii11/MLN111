@@ -167,6 +167,47 @@ const Connect = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='connect-contentadd2'>
+                        <div>
+                            <span>
+                                <h1>
+                                    {labels["connect-titleadd2"]}
+                                </h1>
+                            </span>
+                        </div>
+
+                        <div>
+                            <span>
+                                <li>
+                                    {labels["connect-titleadd2-content1"]}
+                                </li>
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <li>
+                                    {labels["connect-titleadd2-content2"]}
+                                </li>
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                <li>
+                                    {labels["connect-titleadd2-content3"]}
+                                </li>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div className='connect-contentadd3'>
+                        <div>
+                            <span>
+                                <h1>
+                                    {labels["develop-titleadd2"]}
+                                </h1>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
