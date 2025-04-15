@@ -213,13 +213,14 @@
 }
 
 .connect-title-contentadd1 {
+    padding: 0 100px 0 130px;
     margin-top: 100px;
-    padding-left: 60px;
+    padding-left: 100px;
     position: absolute;
-    width: 60%;
+    width: 49%;
     right: 0;
     display: flex;
-    gap: 55px
+    gap: 115px
 }
 
 .connect-title-contentadd1 span li {
@@ -248,13 +249,12 @@
     /* Hỗ trợ cho Safari */
     font-weight: bold;
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .conect-title-sub-content span div {
-    margin-left: 30px;
     position: relative;
-    max-width: 200px;
+    max-width: 230px;
 }
 
 .connect-content1 span h1 {
