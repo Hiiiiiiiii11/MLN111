@@ -31,22 +31,26 @@ const Connect = () => {
                         <div className='connect-title-contentadd1'>
                             <div className='conect-title-sub-content'>
                                 <span>
-                                    <li>
-                                        {labels["connect-titleadd1-content1"]}
-                                    </li>
-                                    <ul>
-                                        {labels["connect-titleadd1-sub-content1"]}
-                                    </ul>
+                                    <div>
+                                        <li>
+                                            {labels["connect-titleadd1-content1"]}
+                                        </li>
+                                        <ul>
+                                            {labels["connect-titleadd1-sub-content1"]}
+                                        </ul>
+                                    </div>
                                 </span>
                             </div>
                             <div className='conect-title-sub-content'>
                                 <span>
-                                    <li>
-                                        {labels["connect-titleadd1-content2"]}
-                                    </li>
-                                    <ul>
-                                        {labels["connect-titleadd1-sub-content2"]}
-                                    </ul>
+                                    <div>
+                                        <li>
+                                            {labels["connect-titleadd1-content2"]}
+                                        </li>
+                                        <ul>
+                                            {labels["connect-titleadd1-sub-content2"]}
+                                        </ul>
+                                    </div>
                                 </span>
                             </div>
                         </div>
