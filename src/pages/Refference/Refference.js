@@ -18,7 +18,12 @@ const Refference = () => {
     // };
     return (
         <div>
+            <div className='refference-page'>
+                <div className='refference-content'>
 
+                </div>
+
+            </div>
         </div>
     );
 };

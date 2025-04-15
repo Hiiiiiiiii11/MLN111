@@ -67,7 +67,7 @@ const HomePage = () => {
                         <div>
                             <span>
 
-                                <h3><li>{labels["principle1"]}</li></h3>
+                                <h3><ul>{labels["principle1"]}</ul></h3>
 
                             </span>
                         </div>
@@ -82,7 +82,7 @@ const HomePage = () => {
                             <span>
 
                                 <h3>
-                                    <li>{labels["principle2"]}</li></h3>
+                                    <ul>{labels["principle2"]}</ul></h3>
 
                             </span>
                         </div>

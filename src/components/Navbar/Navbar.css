@@ -35,7 +35,7 @@
 }
 
 .selected {
-    color: red;
+    color: rgb(255, 205, 68);
     /* Hoặc bất kỳ kiểu nào bạn mong muốn */
     font-weight: bold;
 }
